@@ -1,0 +1,117 @@
+html {
+    background: #fce4ec;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 140px;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 142px;
+    padding-right: 345px;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #CF509C;
+}
+
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#top_section {
+    min-width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #76BEBE;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+form {
+    margin-left: 450px;
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 467px;
+    margin-top: 10px;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    max-width: 467px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.57);
+    border-radius: 10px;
+    padding: 0px;
+
+}
+
+label {
+    padding-bottom: 7px;
+    padding-top: 17px;
+    font-size: 28px;
+    line-height: 20px;
+    font-family: 'Alegreya Sans SC';
+}
+
+.submit-button {
+    background: #76BEBE;
+    width: 306px;
+    height: 45px;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sec-form h1 {
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+#info {
+    display: grid;
+    grid-auto-flow: row;
+    margin-left: 450px;
+    max-width: 467px;
+    margin-top: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+}
